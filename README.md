@@ -15,13 +15,13 @@
 ```bash
 git clone https://github.com/jayaharisai/Titboard.git
 cd Titboard
-
+```
 
 ### Step 2: Build the Docker Image
 
 ```bash
 sudo docker build -t titboard .
-
+```
 ### Step 3: Run the Docker Container
 ```bash
 sudo docker run -d -p 8000:8000 titboard
