@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: titboard
+Version: 0.1.0
+Summary: FastAPI backend with React frontend
+Author-email: Jayaharisai Tothala <jayaharisai1212@gmail.com>
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
+Requires-Dist: typer[all]
+Requires-Dist: boto3

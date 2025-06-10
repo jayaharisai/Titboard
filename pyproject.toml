@@ -1,0 +1,17 @@
+[project]
+name = "titboard"
+version = "0.1.0"
+description = "FastAPI backend with React frontend"
+authors = [
+    {name = "Jayaharisai Tothala", email = "jayaharisai1212@gmail.com"}
+]
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "typer[all]",
+    "boto3"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

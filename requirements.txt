@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+typer
+boto3
+setuptools
