@@ -27,7 +27,7 @@ app.add_middleware(
 app.include_router(api_router, prefix="/api")
 
 # Serve React frontend
-app.mount("/", StaticFiles(directory="client/build", html=True), name="react")
+app.mount("/", StaticFiles(directory="build", html=True), name="react")
 
 @app.get("/{full_path:path}")
 def react_fallback(full_path: str):
