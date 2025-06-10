@@ -5,7 +5,7 @@
 <h1 align="center">Titboard</h1>
 
 <p align="center">
-  🚀 A FastAPI backend with a React frontend to manage and monitor EC2 instances with ease.
+  The app which helps in your daily work flow
 </p>
 
 ## 📦 Clone and Run with Docker
